@@ -1,0 +1,90 @@
+ul {list-style-type: none;}
+
+.header__top {width: 1600px;
+            background: #222222;}
+
+.header__top-nav {width: 1140 px;
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                }
+                
+
+.left {display: flex;}
+
+.right {display: flex;}
+
+.header__content {width: 1600px;
+                background: #F1E4E6;
+                display: flex;
+            height: 764px;}
+
+.men {width: 800px;
+    height: 764px;}
+
+.h1 {width: 568px;
+    height: 764px;
+    margin-left: 10px;
+    margin-top: 290px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.menu {width: 232px;
+        height: 764px;
+        
+        }
+
+        section {align-content: center;}
+
+.component {display: flex;
+            grid-column-gap: 30px;
+        align-content: center;}
+
+.composition {width: 1140px;
+                grid-column-start: 1;
+                grid-column-end: 4;}
+
+.composition__p, .composition__h {text-align: center;}
+
+h3, p {text-align: center;}
+
+.content__top {display: flex;
+            grid-column-gap: 30px;}
+.content__bott {display: flex;
+                grid-column-gap: 30px;}
+.content__top-top, .content__bott-bott { width: 360px;
+                                        height: 581px;
+                                        }
+
+/*.button {align-content: center;
+        background: #222224;
+        width: 1600px;
+        height: 341px;}*/
+
+.botton__ul {display: flex;
+            grid-column-gap: 30px;
+            align-content: center;
+            background: #222224;
+            width: 1600px;
+            height: 341px;}
+
+.botton__li {width: 360px;
+            height: 150px;
+        text-align: center;
+            color: #FBFBFB;;}
+
+/*.footer {background: #222224;}*/
+
+.footer__ul {display: flex;
+            grid-column-gap: 30px;}
+.footer__li {width: 360px;
+            height: 200px;
+        text-align: center;}
+
+
