@@ -8,17 +8,13 @@ ul {
 }
 
 .header__top {
-    width: 1600px;
-    background: #222222;
-}
-
-.header__top-nav {
     width: 1140 px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #222222;
 }
+
 
 
 .left {
