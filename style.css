@@ -1,32 +1,33 @@
-ul {
-    list-style-type: none;
-}
-
 .content {
     width: 1600px;
     background-color: #FBFBFB;
 }
 
 .header__top {
-    width: 1140 px;
+    height: 75px;
+    line-height: 75px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: auto;
+    grid-column-gap: 30px;
     background: #222222;
 }
 
-
-
-.left {
+.logo__search {
     display: flex;
+    grid-column-gap: 30px;
+    list-style-type: none;
+    margin-left: 230px;
 }
 
-.right {
+.menu__prof__cart {
     display: flex;
+    grid-column-gap: 30px;
+    list-style-type: none;
+    margin-right: 230px;
 }
 
 .header__content {
-    width: 1600px;
     background: #F1E4E6;
     display: flex;
     height: 764px;
@@ -51,25 +52,27 @@ ul {
 }
 
 .menu {
+    list-style-type: none;
     width: 232px;
     height: 764px;
 
 }
 
-section {
-    align-content: center;
+.component {
+    margin: 65px 200px 0;
 }
 
-.component {
+.component__foto {
     display: flex;
     grid-column-gap: 30px;
-    align-content: center;
+    list-style-type: none;
 }
 
 .composition {
     width: 1140px;
     grid-column-start: 1;
     grid-column-end: 4;
+    margin: auto;
 }
 
 .composition__p,
