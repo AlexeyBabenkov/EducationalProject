@@ -130,7 +130,9 @@ p {
 
 .footer {
     width: 1600px;
-    height: 530px;
+    height: 450px;
+    bottom: 0px;
+    border: so;
 }
 
 .footer__ul {
@@ -167,4 +169,29 @@ p {
     border: #F16D7F;
     border-radius: 0 50px 50px 0;
     margin-left: 0px;
+}
+
+.footer__bottom {
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    margin-top: 0px;
+}
+
+.footer__bottom-copy {
+    list-style-type: none;
+    margin: auto;
+}
+
+.footer__bottom-social {
+    list-style-type: none;
+    display: flex;
+    grid-column-gap: 5px;
+    margin: auto;
+}
+
+.footer__bottom-copy_a {
+    color: #F1E4E6;
+    text-decoration: none;
 }
